@@ -4,7 +4,7 @@ def Action():
     while 1:
         cls()
         if Object.Type=='Dog':
-            print('\r  _    _  \n\r / / \__/ \ \ \n\r \/| /\/\ |\/\n\r  _||o o ||_\n\r /. .\__/. .\ \n\r/ . .(__) . .\ \n\r\ .  /__\  . / \n\r \__/\__/\__/')
+            print('\r  _    _  \n\r / / \__/ \ \ \n\r \/| /\/\ |\/\n\r  _||o o ||_\n\r /. .\__/. .\ \n\r/ . .(__) . .\ \n\r\ .  /__\  . / \n\r \__/\__/\__/ ')
         Object.State()
         Object.Cycle()
         print('\r##### ACTIVITIES ##### \n\r1 Feed\n\r2 Sleep\n\r3 Clean\n\r4 Play')
